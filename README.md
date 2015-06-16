@@ -1,5 +1,5 @@
 # Demo
-![效果图](http://home.ustc.edu.cn/~sa514014/img/toolbar_demo.gif)
+![效果图](http://home.ustc.edu.cn/~sa514014/img/toolbar.gif)
 
 # 使用
 - 在ZZToolbar.xib中修改button的样式
