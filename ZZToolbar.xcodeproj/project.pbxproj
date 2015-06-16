@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		9563BFA81B2E66CF002E7D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFA71B2E66CF002E7D37 /* main.m */; };
 		9563BFAB1B2E66CF002E7D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFAA1B2E66CF002E7D37 /* AppDelegate.m */; };
-		9563BFAE1B2E66CF002E7D37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFAD1B2E66CF002E7D37 /* ViewController.m */; };
-		9563BFB11B2E66CF002E7D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFAF1B2E66CF002E7D37 /* Main.storyboard */; };
 		9563BFB31B2E66CF002E7D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFB21B2E66CF002E7D37 /* Images.xcassets */; };
 		9563BFB61B2E66CF002E7D37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFB41B2E66CF002E7D37 /* LaunchScreen.xib */; };
 		9563BFC21B2E66D0002E7D37 /* ZZToolbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFC11B2E66D0002E7D37 /* ZZToolbarTests.m */; };
+		9563BFD31B2E73C9002E7D37 /* ZZEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFD21B2E73C9002E7D37 /* ZZEditViewController.m */; };
+		9563BFD51B2E73D9002E7D37 /* ZZToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFD41B2E73D9002E7D37 /* ZZToolbar.xib */; };
+		9563BFD81B2E7455002E7D37 /* ZZToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFD71B2E7455002E7D37 /* ZZToolbar.m */; };
+		EBB257A5AFA1E4A1C2AF5787 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C246569AF775DD6EE42374 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		94C246569AF775DD6EE42374 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9563BFA21B2E66CF002E7D37 /* ZZToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9563BFA61B2E66CF002E7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9563BFA71B2E66CF002E7D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9563BFA91B2E66CF002E7D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9563BFAA1B2E66CF002E7D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9563BFAC1B2E66CF002E7D37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9563BFAD1B2E66CF002E7D37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9563BFB01B2E66CF002E7D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9563BFB21B2E66CF002E7D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9563BFB51B2E66CF002E7D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9563BFBB1B2E66CF002E7D37 /* ZZToolbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZToolbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9563BFC01B2E66CF002E7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9563BFC11B2E66D0002E7D37 /* ZZToolbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZToolbarTests.m; sourceTree = "<group>"; };
+		9563BFD11B2E73C9002E7D37 /* ZZEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZEditViewController.h; sourceTree = "<group>"; };
+		9563BFD21B2E73C9002E7D37 /* ZZEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZEditViewController.m; sourceTree = "<group>"; };
+		9563BFD41B2E73D9002E7D37 /* ZZToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZToolbar.xib; sourceTree = "<group>"; };
+		9563BFD61B2E7455002E7D37 /* ZZToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZToolbar.h; sourceTree = "<group>"; };
+		9563BFD71B2E7455002E7D37 /* ZZToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZToolbar.m; sourceTree = "<group>"; };
+		EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB257A5AFA1E4A1C2AF5787 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				9563BFA41B2E66CF002E7D37 /* ZZToolbar */,
 				9563BFBE1B2E66CF002E7D37 /* ZZToolbarTests */,
 				9563BFA31B2E66CF002E7D37 /* Products */,
+				E0413830260A2A86EA839517 /* Pods */,
+				ECC25862EA0A1071BF3263E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +93,11 @@
 			children = (
 				9563BFA91B2E66CF002E7D37 /* AppDelegate.h */,
 				9563BFAA1B2E66CF002E7D37 /* AppDelegate.m */,
-				9563BFAC1B2E66CF002E7D37 /* ViewController.h */,
-				9563BFAD1B2E66CF002E7D37 /* ViewController.m */,
-				9563BFAF1B2E66CF002E7D37 /* Main.storyboard */,
-				9563BFB21B2E66CF002E7D37 /* Images.xcassets */,
-				9563BFB41B2E66CF002E7D37 /* LaunchScreen.xib */,
+				9563BFD11B2E73C9002E7D37 /* ZZEditViewController.h */,
+				9563BFD21B2E73C9002E7D37 /* ZZEditViewController.m */,
+				9563BFD61B2E7455002E7D37 /* ZZToolbar.h */,
+				9563BFD71B2E7455002E7D37 /* ZZToolbar.m */,
+				9563BFD41B2E73D9002E7D37 /* ZZToolbar.xib */,
 				9563BFA51B2E66CF002E7D37 /* Supporting Files */,
 			);
 			path = ZZToolbar;
@@ -96,6 +106,8 @@
 		9563BFA51B2E66CF002E7D37 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9563BFB21B2E66CF002E7D37 /* Images.xcassets */,
+				9563BFB41B2E66CF002E7D37 /* LaunchScreen.xib */,
 				9563BFA61B2E66CF002E7D37 /* Info.plist */,
 				9563BFA71B2E66CF002E7D37 /* main.m */,
 			);
@@ -119,6 +131,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E0413830260A2A86EA839517 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */,
+				EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECC25862EA0A1071BF3263E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94C246569AF775DD6EE42374 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9563BFC51B2E66D0002E7D37 /* Build configuration list for PBXNativeTarget "ZZToolbar" */;
 			buildPhases = (
+				C7135D0E0B3FF27D2C274AB5 /* Check Pods Manifest.lock */,
 				9563BF9E1B2E66CF002E7D37 /* Sources */,
 				9563BF9F1B2E66CF002E7D37 /* Frameworks */,
 				9563BFA01B2E66CF002E7D37 /* Resources */,
+				6FA273D5059E6548989F5B9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +213,24 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				da,
+				de,
+				"es-MX",
+				es,
+				fi,
+				fr,
+				he,
+				"hi-IN",
+				id,
+				it,
+				ja,
+				ko,
+				"pt-PT",
+				pt,
+				ru,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 9563BF991B2E66CF002E7D37;
 			productRefGroup = 9563BFA31B2E66CF002E7D37 /* Products */;
@@ -199,9 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9563BFB11B2E66CF002E7D37 /* Main.storyboard in Resources */,
 				9563BFB61B2E66CF002E7D37 /* LaunchScreen.xib in Resources */,
 				9563BFB31B2E66CF002E7D37 /* Images.xcassets in Resources */,
+				9563BFD51B2E73D9002E7D37 /* ZZToolbar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +263,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FA273D5059E6548989F5B9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7135D0E0B3FF27D2C274AB5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9563BF9E1B2E66CF002E7D37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9563BFAE1B2E66CF002E7D37 /* ViewController.m in Sources */,
+				9563BFD31B2E73C9002E7D37 /* ZZEditViewController.m in Sources */,
+				9563BFD81B2E7455002E7D37 /* ZZToolbar.m in Sources */,
 				9563BFAB1B2E66CF002E7D37 /* AppDelegate.m in Sources */,
 				9563BFA81B2E66CF002E7D37 /* main.m in Sources */,
 			);
@@ -244,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9563BFAF1B2E66CF002E7D37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9563BFB01B2E66CF002E7D37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9563BFB41B2E66CF002E7D37 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +422,7 @@
 		};
 		9563BFC61B2E66D0002E7D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZToolbar/Info.plist;
@@ -357,6 +433,7 @@
 		};
 		9563BFC71B2E66D0002E7D37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZToolbar/Info.plist;
@@ -418,6 +495,7 @@
 				9563BFC71B2E66D0002E7D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9563BFC81B2E66D0002E7D37 /* Build configuration list for PBXNativeTarget "ZZToolbarTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +504,7 @@
 				9563BFCA1B2E66D0002E7D37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

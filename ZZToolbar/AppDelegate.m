@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ZZEditViewController.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface AppDelegate ()
 
@@ -17,6 +20,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ZZEditViewController *rootViewController = [[ZZEditViewController alloc]init];
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:rootViewController];
+    self.window.rootViewController = navController;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self customNaviBar];
+    [self.window makeKeyAndVisible];    // Make current window visible
+    
     return YES;
 }
 
@@ -41,5 +54,22 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+#pragma mark - Private Methods
+
+- (void)customNaviBar {
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = UIColorFromRGB(0xFFFFFF);
+    shadow.shadowOffset = CGSizeMake(0, 0.5);
+    
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    [navigationBarAppearance setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
+             UIColorFromRGB(0xFFFFFF), NSForegroundColorAttributeName,
+             shadow, NSShadowAttributeName,
+             [UIFont systemFontOfSize:20.0], NSFontAttributeName,
+             nil]];
+    [navigationBarAppearance setBarTintColor:UIColorFromRGB(0x3CA9D2)];
+}
+
 
 @end

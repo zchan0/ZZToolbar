@@ -1,0 +1,13 @@
+PODS:
+  - CTAssetsPickerController (2.9.4)
+  - HSDatePickerViewController (1.0.1)
+
+DEPENDENCIES:
+  - CTAssetsPickerController (~> 2.9.0)
+  - HSDatePickerViewController (~> 1.0)
+
+SPEC CHECKSUMS:
+  CTAssetsPickerController: 3030dc60f5d1a3c4e5b1c0aa9f069220d5bf7008
+  HSDatePickerViewController: b292f2a53b2644a68aa5e1343053d2f3554de64c
+
+COCOAPODS: 0.37.0
