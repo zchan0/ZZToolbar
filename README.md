@@ -1,3 +1,6 @@
+#关于
+一个类似于Day One编辑界面的键盘的toolbar.
+
 # Demo
 ![效果图](http://home.ustc.edu.cn/~sa514014/img/toolbar.gif)
 
