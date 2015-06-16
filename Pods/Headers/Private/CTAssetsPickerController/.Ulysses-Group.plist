@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>ALAsset+accessibilityLabel.h</string>
+		</array>
+		<array>
+			<string>ALAsset+assetType.h</string>
+		</array>
+		<array>
+			<string>ALAsset+isEqual.h</string>
+		</array>
+		<array>
+			<string>ALAssetsGroup+isEqual.h</string>
+		</array>
+		<array>
+			<string>CTAssetItemViewController.h</string>
+		</array>
+		<array>
+			<string>CTAssetScrollView.h</string>
+		</array>
+		<array>
+			<string>CTAssetsGroupViewCell.h</string>
+		</array>
+		<array>
+			<string>CTAssetsGroupViewController.h</string>
+		</array>
+		<array>
+			<string>CTAssetsPageViewController.h</string>
+		</array>
+		<array>
+			<string>CTAssetsPickerCommon.h</string>
+		</array>
+		<array>
+			<string>CTAssetsPickerController.h</string>
+		</array>
+		<array>
+			<string>CTAssetsSupplementaryView.h</string>
+		</array>
+		<array>
+			<string>CTAssetsViewCell.h</string>
+		</array>
+		<array>
+			<string>CTAssetsViewController.h</string>
+		</array>
+		<array>
+			<string>CTAssetsViewControllerTransition.h</string>
+		</array>
+		<array>
+			<string>NSBundle+CTAssetsPickerController.h</string>
+		</array>
+		<array>
+			<string>NSDateFormatter+timeIntervalFormatter.h</string>
+		</array>
+		<array>
+			<string>UIImage+CTAssetsPickerController.h</string>
+		</array>
+	</array>
+</dict>
+</plist>
