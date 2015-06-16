@@ -24,13 +24,13 @@
 2. Implement protocol methods
 
 #More
-Use the following methods in `viewWillAppear` can modify button with something user selected, like date, images, etc. 
+Use the following methods(in `viewWillAppear`)can modify button. 
 
-1. `- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`
+1. `- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`<br>
     Add bades on button with this method.
-2. `- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`
+2. `- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`<br>
     Show a small image on the button.
-3. `- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`
+3. `- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`<br>
     Show number(or other) on the button.
 
 #Thanks
