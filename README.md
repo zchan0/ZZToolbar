@@ -1,5 +1,5 @@
 # Demo
-![demo][http://home.ustc.edu.cn/~sa514014/img/toolbar_demo.gif]
+![demo](http://home.ustc.edu.cn/~sa514014/img/toolbar_demo.gif)
 
 # 使用
 - 在ZZToolbar.xib中修改button的样式
@@ -13,7 +13,7 @@
 `- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`  
 3. 在button上显示文字(字符串)  
 `- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`
->>>>>>> c4398d57f5d6312445026dc32e8e08d83f4d3f26
+
 
 # 其它
 Thanks:
