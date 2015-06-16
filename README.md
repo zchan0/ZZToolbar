@@ -6,13 +6,13 @@
 - 实现相应的协议方法
 
 #更多
-可以调用下面的方法改变button的样式
-1. 在button上添加badges<br>
-`- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`
-2. 在button上显示图片<br>
-`- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)imag    e;`
-3. 在button上显示文字(字符串)<br>
-`- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)n    umber;`
+可以调用下面的方法改变button的样式  
+1. 在button上添加badges  
+`- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`  
+2. 在button上显示图片  
+`- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`  
+3. 在button上显示文字(字符串)  
+`- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`
 
 #其它
 感谢:
@@ -26,12 +26,13 @@
 #More
 Use the following methods(in `viewWillAppear`)can modify button. 
 
-1. `- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`<br>
-    Add bades on button with this method.
-2. `- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`<br>
-    Show a small image on the button.
-3. `- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`<br>
-    Show number(or other) on the button.
+1. Add bades on button with this method.  
+`- (void)addBadges:(UIButton *)onButton withNumber:(NSUInteger)number;`  
+2. Show a small image on the button.  
+`- (void)addImagesOnButton:(UIButton *)onButton withImage:(UIImage *)image;`
+3. Show number(or other) on the button.  
+`- (void)addNumberOnButton:(UIButton *)onButton withNumber: (NSString *)number;`
+    
 
 #Thanks
 - CTAssetsPickerController
