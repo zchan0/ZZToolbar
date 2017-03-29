@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043CD39948295218BC92B8EB /* libPods-ZZToolbarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 050864BAB356E5985C201782 /* libPods-ZZToolbarTests.a */; };
 		9563BFA81B2E66CF002E7D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFA71B2E66CF002E7D37 /* main.m */; };
 		9563BFAB1B2E66CF002E7D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFAA1B2E66CF002E7D37 /* AppDelegate.m */; };
 		9563BFB31B2E66CF002E7D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFB21B2E66CF002E7D37 /* Images.xcassets */; };
@@ -15,7 +16,7 @@
 		9563BFD31B2E73C9002E7D37 /* ZZEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFD21B2E73C9002E7D37 /* ZZEditViewController.m */; };
 		9563BFD51B2E73D9002E7D37 /* ZZToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9563BFD41B2E73D9002E7D37 /* ZZToolbar.xib */; };
 		9563BFD81B2E7455002E7D37 /* ZZToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563BFD71B2E7455002E7D37 /* ZZToolbar.m */; };
-		EBB257A5AFA1E4A1C2AF5787 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C246569AF775DD6EE42374 /* libPods.a */; };
+		C5F5FD820B923CA9FCFD014D /* libPods-ZZToolbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AF9674C802F4C4A67CF6D7 /* libPods-ZZToolbar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		94C246569AF775DD6EE42374 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		050864BAB356E5985C201782 /* libPods-ZZToolbarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZToolbarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9563BFA21B2E66CF002E7D37 /* ZZToolbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZToolbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9563BFA61B2E66CF002E7D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9563BFA71B2E66CF002E7D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,7 +46,11 @@
 		9563BFD41B2E73D9002E7D37 /* ZZToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZToolbar.xib; sourceTree = "<group>"; };
 		9563BFD61B2E7455002E7D37 /* ZZToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZToolbar.h; sourceTree = "<group>"; };
 		9563BFD71B2E7455002E7D37 /* ZZToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZToolbar.m; sourceTree = "<group>"; };
-		EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A829D945EEAA2C1015DF1C2C /* Pods-ZZToolbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZToolbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZToolbar/Pods-ZZToolbar.debug.xcconfig"; sourceTree = "<group>"; };
+		B0AF9674C802F4C4A67CF6D7 /* libPods-ZZToolbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZToolbar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59BEFDFC5E671A455E3BBE6 /* Pods-ZZToolbarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZToolbarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZToolbarTests/Pods-ZZToolbarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C700EFE0227B047CF3742B89 /* Pods-ZZToolbarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZToolbarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZToolbarTests/Pods-ZZToolbarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D36C3A35863F2640CD751941 /* Pods-ZZToolbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZToolbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZToolbar/Pods-ZZToolbar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB257A5AFA1E4A1C2AF5787 /* libPods.a in Frameworks */,
+				C5F5FD820B923CA9FCFD014D /* libPods-ZZToolbar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,20 +66,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043CD39948295218BC92B8EB /* libPods-ZZToolbarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A36FEC6DDDAA71D76AF5931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A829D945EEAA2C1015DF1C2C /* Pods-ZZToolbar.debug.xcconfig */,
+				D36C3A35863F2640CD751941 /* Pods-ZZToolbar.release.xcconfig */,
+				B59BEFDFC5E671A455E3BBE6 /* Pods-ZZToolbarTests.debug.xcconfig */,
+				C700EFE0227B047CF3742B89 /* Pods-ZZToolbarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9563BF991B2E66CF002E7D37 = {
 			isa = PBXGroup;
 			children = (
 				9563BFA41B2E66CF002E7D37 /* ZZToolbar */,
 				9563BFBE1B2E66CF002E7D37 /* ZZToolbarTests */,
 				9563BFA31B2E66CF002E7D37 /* Products */,
-				E0413830260A2A86EA839517 /* Pods */,
-				ECC25862EA0A1071BF3263E8 /* Frameworks */,
+				8A36FEC6DDDAA71D76AF5931 /* Pods */,
+				B00A40779F847561639F0CC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,19 +147,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E0413830260A2A86EA839517 /* Pods */ = {
+		B00A40779F847561639F0CC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */,
-				EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		ECC25862EA0A1071BF3263E8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				94C246569AF775DD6EE42374 /* libPods.a */,
+				B0AF9674C802F4C4A67CF6D7 /* libPods-ZZToolbar.a */,
+				050864BAB356E5985C201782 /* libPods-ZZToolbarTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,11 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9563BFC51B2E66D0002E7D37 /* Build configuration list for PBXNativeTarget "ZZToolbar" */;
 			buildPhases = (
-				C7135D0E0B3FF27D2C274AB5 /* Check Pods Manifest.lock */,
+				5BC7C1936D149E7D163C7009 /* [CP] Check Pods Manifest.lock */,
 				9563BF9E1B2E66CF002E7D37 /* Sources */,
 				9563BF9F1B2E66CF002E7D37 /* Frameworks */,
 				9563BFA01B2E66CF002E7D37 /* Resources */,
-				6FA273D5059E6548989F5B9F /* Copy Pods Resources */,
+				7CA8264F613588BAF4A7AE35 /* [CP] Embed Pods Frameworks */,
+				B127722FB8CB2065CB828F55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9563BFC81B2E66D0002E7D37 /* Build configuration list for PBXNativeTarget "ZZToolbarTests" */;
 			buildPhases = (
+				238D4C5E1100E362636F7078 /* [CP] Check Pods Manifest.lock */,
 				9563BFB71B2E66CF002E7D37 /* Sources */,
 				9563BFB81B2E66CF002E7D37 /* Frameworks */,
 				9563BFB91B2E66CF002E7D37 /* Resources */,
+				ACD822DB10BAFAE0DB09793B /* [CP] Embed Pods Frameworks */,
+				CB89AAE5C789340C5EC38A97 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,34 +276,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FA273D5059E6548989F5B9F /* Copy Pods Resources */ = {
+		238D4C5E1100E362636F7078 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C7135D0E0B3FF27D2C274AB5 /* Check Pods Manifest.lock */ = {
+		5BC7C1936D149E7D163C7009 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7CA8264F613588BAF4A7AE35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZToolbar/Pods-ZZToolbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD822DB10BAFAE0DB09793B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZToolbarTests/Pods-ZZToolbarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B127722FB8CB2065CB828F55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZToolbar/Pods-ZZToolbar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB89AAE5C789340C5EC38A97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZZToolbarTests/Pods-ZZToolbarTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -422,7 +494,7 @@
 		};
 		9563BFC61B2E66D0002E7D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F8EA11DA640AF64C9ED2B4 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A829D945EEAA2C1015DF1C2C /* Pods-ZZToolbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZToolbar/Info.plist;
@@ -433,7 +505,7 @@
 		};
 		9563BFC71B2E66D0002E7D37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EADC8D99C03A9FD7B888F40D /* Pods.release.xcconfig */;
+			baseConfigurationReference = D36C3A35863F2640CD751941 /* Pods-ZZToolbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZZToolbar/Info.plist;
@@ -444,6 +516,7 @@
 		};
 		9563BFC91B2E66D0002E7D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59BEFDFC5E671A455E3BBE6 /* Pods-ZZToolbarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -463,6 +536,7 @@
 		};
 		9563BFCA1B2E66D0002E7D37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C700EFE0227B047CF3742B89 /* Pods-ZZToolbarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

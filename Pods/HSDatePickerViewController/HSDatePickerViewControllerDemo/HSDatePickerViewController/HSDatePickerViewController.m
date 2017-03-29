@@ -61,6 +61,15 @@ static NSInteger kBufforRows = 30; //Number of rows that are prevent by scroll p
     return self;
 }
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    NSBundle *podbundle = [NSBundle bundleForClass:[self class]];
+    self = [super initWithNibName:nibNameOrNil bundle:podbundle];
+    if (self) {
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -330,12 +339,16 @@ static NSInteger kBufforRows = 30; //Number of rows that are prevent by scroll p
     if (firstComponentRowValue <= self.minRowIndex) {
         NSDateComponents *components = [[NSCalendar currentCalendar] components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:self.minDate];
         [self setPickerView:self.pickerView rowInComponent:HourPicker toIntagerValue:[components hour] decrementing:NO animated:YES];
-        [self setPickerView:self.pickerView rowInComponent:MinutePicker toIntagerValue:[components minute]  decrementing:NO animated:YES];
+        if ([pickerView selectedRowInComponent:HourPicker] <= [self defaultRowValueForComponent:HourPicker] + [components hour]) {
+            [self setPickerView:self.pickerView rowInComponent:MinutePicker toIntagerValue:[components minute]  decrementing:NO animated:YES];
+        }
     }
     if (firstComponentRowValue >= self.maxRowIndex) {
         NSDateComponents *components = [[NSCalendar currentCalendar] components:(NSCalendarUnitHour | NSCalendarUnitMinute) fromDate:self.maxDate];
         [self setPickerView:self.pickerView rowInComponent:HourPicker toIntagerValue:[components hour] decrementing:YES animated:YES];
-        [self setPickerView:self.pickerView rowInComponent:MinutePicker toIntagerValue:[components minute]  decrementing:YES animated:YES];
+        if ([pickerView selectedRowInComponent:HourPicker] >= [self defaultRowValueForComponent:HourPicker] + [components hour]) {
+            [self setPickerView:self.pickerView rowInComponent:MinutePicker toIntagerValue:[components minute]  decrementing:YES animated:YES];
+        }
     }
 }
 
@@ -468,12 +481,12 @@ static NSInteger kBufforRows = 30; //Number of rows that are prevent by scroll p
 
 - (IBAction)quitPicking:(id)sender {
     if ([self.delegate respondsToSelector:@selector(hsDatePickerWillDismissWithQuitMethod:)]) {
-        [self.delegate hsDatePickerWillDismissWithQuitMethod:QuitWithResult];
+        [self.delegate hsDatePickerWillDismissWithQuitMethod:QuitWithBackButton];
     }
     void (^success)(void) = nil;
     if ([self.delegate respondsToSelector:@selector(hsDatePickerDidDismissWithQuitMethod:)]) {
         success = ^{
-            [self.delegate hsDatePickerDidDismissWithQuitMethod:QuitWithResult];
+            [self.delegate hsDatePickerDidDismissWithQuitMethod:QuitWithBackButton];
         };
     }
     [self dismissViewControllerAnimated:YES completion:success];
@@ -482,12 +495,12 @@ static NSInteger kBufforRows = 30; //Number of rows that are prevent by scroll p
 - (void)cancelTapGesture:(UITapGestureRecognizer *)sender {
     if (self.shouldDismissOnCancelTouch) {
         if ([self.delegate respondsToSelector:@selector(hsDatePickerWillDismissWithQuitMethod:)]) {
-            [self.delegate hsDatePickerWillDismissWithQuitMethod:QuitWithResult];
+            [self.delegate hsDatePickerWillDismissWithQuitMethod:QuitWithCancel];
         }
         void (^success)(void) = nil;
         if ([self.delegate respondsToSelector:@selector(hsDatePickerDidDismissWithQuitMethod:)]) {
             success = ^{
-                [self.delegate hsDatePickerDidDismissWithQuitMethod:QuitWithResult];
+                [self.delegate hsDatePickerDidDismissWithQuitMethod:QuitWithCancel];
             };
         }
         [self dismissViewControllerAnimated:YES completion:success];
